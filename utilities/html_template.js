@@ -21,7 +21,7 @@ const send_otp_template=(otp)=>`
       <table style="width: 100%; max-width: 600px; margin: auto; border-collapse: collapse; font-family: Arial, sans-serif;">
         <tr>
           <td style="padding: 20px; text-align: center; background-color: #f9f9f9;">
-            <h2 style="color: #333;">📎 You've received a file via QuickDrop</h2>
+            <h2 style="color: #333;"> You've received file via Image Point.</h2>
             
             <p style="font-size: 16px; color: #555;"><strong>Title:</strong> ${title}</p>
             <p style="font-size: 16px; color: #555;"><strong>Message:</strong> ${message}</p>

@@ -53,7 +53,7 @@ const isValidEmail = (email,emailMsg) => {
   
   const validateFiles = (files) => {
     if (!files || files.length === 0) {
-      return { success: false, message: "At least one file must be uploaded." };
+      return { success: false, message: "At least one file must be uploaded." };  
     }
     return {success:true}
 

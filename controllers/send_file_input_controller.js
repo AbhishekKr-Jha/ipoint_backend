@@ -11,6 +11,7 @@ console.log(process.env.JWT_SECRET_KEY)
       try {
 
     const {token,userEmail,receiverEmail,title,message}=req.body
+    console.log("th request is",req.body)
     const files = req.files; 
 
     if(!token)  return res.status(400).json({message:"Invalid User!"}) 

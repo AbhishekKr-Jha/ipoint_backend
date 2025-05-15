@@ -24,7 +24,7 @@ export const send_otp_func = async (req, res) => {
   const otp_func_response = otp_generator(userEmail, "5m");
 
   const mailOptions = {
-    from: '"QuickDrop Support " <noreply@quickdrop.in> ',
+        from: '"I.point Support " <noreply@ipoint.in>',  
     to: userEmail,
     subject: "One time verification OTP for ImagePoint.",
     text: `Your verification code is ${otp_func_response.otp}`,
