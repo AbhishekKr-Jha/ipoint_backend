@@ -66,7 +66,7 @@ if(isOtpCorrcet.otp!==Number(otp)) return res.status(400).json({
   message:"Invalid OTP!"
 })
 
-const validaton_token=jwt.sign({userEmail},process.env.JWT_SECRET_KEY,{expiresIn:'12d'})
+const validaton_token=jwt.sign({userEmail},process.env.JWT_SECRET_KEY,{expiresIn:'50d'})
 
 res.status(200).json({
     verification_token:validaton_token,
